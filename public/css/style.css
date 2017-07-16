@@ -1,0 +1,40 @@
+#messageArea{
+    display: none;
+}
+.chat{
+    min-height: 100px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.input-holder{
+    position: relative;
+}
+#uploadfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.input-holder label{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.chat img{
+    max-width: 100%;
+}
+.btns-holder{
+    padding: 15px 0 0;
+}
+#userForm{
+    padding: 100px 0 0;
+}
+#userForm input[type="submit"]{
+    margin: 15px 0 0;
+    width: 100%;
+}
+#messageArea{
+    padding-top: 40px;
+}
